@@ -1,0 +1,60 @@
+
+.joinPage {
+  background-image: url(../../images/bac.png);
+  background-repeat: no-repeat;
+ 
+  background-size: cover; 
+  background-position: center; 
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joinContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 50%;
+}
+.joinContainer img {
+  width: 10vmax;
+}
+.joinContainer h1 {
+  color: #3b4662;
+
+  font-size: 2.5vmax;
+  width: 25vmax;
+  border-bottom: 0.2vmax solid white;
+  text-align: center;
+  padding: 1vmax;
+  box-sizing: border-box;
+}
+#joinInput {
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  margin: 2vmax;
+  box-sizing: border-box;
+}
+.joinBtn {
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  /* margin: 2vmax; */
+  box-sizing: border-box;
+  color: white;
+ 
+  background-color: #3b4662;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.joinBtn:hover {
+  background-color: #586994;
+}

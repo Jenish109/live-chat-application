@@ -1,0 +1,23 @@
+.msgBox{
+    background-color: #E5E8B6;
+    /* width: 50%; */
+    padding: 0.8vmax;
+    font-size: 1.2vmax;
+    margin: 0.5vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+}
+
+.right{
+    float: right;
+    background-color: #E5E8B6 ;
+    color: #0d1b2a;
+    text-align: right;
+}
+.left{
+    float: left;
+    text-align: left;
+    background-color: #E5E8B6(118, 118, 118) ;
+    color: #0d1b2a;
+}

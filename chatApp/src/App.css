@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../font/Gilroy-Medium.ttf");
+}
+*{
+    font-family: "Gilroy";
+
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-aspect-ratio: 7/10){
+    .joinPage {
+      
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+      }
+    .joinContainer{
+        margin-top: 30vw !important;
+        width: 100%;
+    }
+    
+.joinContainer img {
+    margin-bottom: 5vw !important;
+    width: 15vmax !important;
+}
+.joinContainer h1 {
+   
+  
+    font-size: 6vw !important;
+    width: 65vw !important;
+    border-bottom: 0.6vmax solid white !important;
+    padding: 3vmax;
+    
+}
+#joinInput {
+    width: 65vw !important;
+    padding: 4vw !important;
+
+    font-size: 5vw !important;
+    margin: 2vw !important;
+   
+  }
+  
+.joinBtn {
+    width: 65vw !important;
+    padding: 4vw !important;
+  
+
+    font-size: 5vw !important;
+   
+  }
+  
+.chatContainer{
+    /* background-color: white; */
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.header{
+    
+    height: 10% !important;
+    }
+    
+.header h2{
+    
+    margin: 8vw !important;
+    font-size: 5vw !important;
+}
+.header img{
+
+margin: 6vw !important;
+transform: scale(2) !important;
+}
+
+.header img:hover{
+    transform: scale(3.1) !important;
+}
+
+
+.chatBox{
+    height: 80% !important;
+}
+
+.inputBox{
+   
+    height: 10% !important;
+    
+}
+
+#chatInput{
+    
+   width: 80%;
+    padding: 4vw !important;
+    
+    font-size: 4vw !important;
+}
+.sendBtn{
+    width: 20%;
+}
+.msgBox{
+    /* width:initial !important; */
+    padding: 3vw !important;
+    margin: 3vw !important;
+    border-radius: 1.5vw !important;
+    font-size: 3.7vw !important;
+  
+}
+
+.right{
+    float: right;
+    background-color: crimson ;
+    color: white;
+}
+.left{
+    float: left;
+    
+    background-color: rgb(118, 118, 118) ;
+    /* color: white; */
+}
+
+}
